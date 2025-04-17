@@ -7,9 +7,10 @@ Steps on how to run congestion control experiments using Mahimahi and Pantheon:
 5. Run the command `git clone https://github.com/StanfordSNR/pantheon.git` to clone the Pantheon repository on your VM.
 6. Enter the pantheon folder that is created and run the command `tools/fetch_submodules.sh` to update the third party modules.
 7. Run the command `tools/install_deps.sh` to install globally required dependencies.
-8. Now moving to Mahimahi, install the list of dependencies required (located on mahimahi.mit.edu) using sudo. Note: install apache2-dev along with apache2-bin!
-9. Go to src/wrappers from within the pantheon directory, where we will be building mahimahi from source.
-10. Run these commands in root to install Mahimahi:
+8. Install numpy==1.15.0 and python-matplotlib, which will be used in the creation of Pantheon graphs.
+9. Now moving to Mahimahi, install the list of dependencies required (located on mahimahi.mit.edu) using sudo. Note: install apache2-dev along with apache2-bin!
+10. Go to src/wrappers from within the pantheon directory, where we will be building mahimahi from source.
+11. Run these commands in root to install Mahimahi:
       ```
       $ git clone https://github.com/ravinet/mahimahi
       $ cd mahimahi
