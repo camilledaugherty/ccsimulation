@@ -26,4 +26,4 @@ Steps on how to run congestion control experiments using Mahimahi and Pantheon:
 17. After each experiment, run `src/analysis/analyze.py` to automatically create a report and graphs for each congestion control scheme.
 
 
-***If any files or directories give you trouble with reading or writing, enter sudo and run "sudo chown <username> <file/dir>"
+***If any files or directories give you trouble with reading or writing, enter sudo and run `sudo chown <username> <file/dir>`
